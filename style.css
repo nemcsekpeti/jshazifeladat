@@ -1,0 +1,58 @@
+body
+{
+    background-color: bisque;
+    margin: auto;
+    width:90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "u u u"
+    "c c c"
+    "d d d"
+    "l l l";
+}
+
+#uzenet
+{
+    background-color: burlywood;
+    border-color: white;
+    border-style: groove;
+    text-align: center;
+    grid-area: u;
+}
+
+#cim
+{
+    background-color: antiquewhite;
+    border-style: groove;
+    border-color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: c;
+}
+
+#divek
+{   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: d;
+}
+
+#leiras
+{
+    background-color: antiquewhite;
+    border-style: groove;
+    border-color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: l;
+}
+
+img
+{
+    width: 450px;
+    height: 600px;
+    border-radius: 50%;
+}
